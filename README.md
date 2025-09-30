@@ -29,28 +29,28 @@ The goal was to investigate how Linux manages user identities, privileges, and a
 ### 1. List all user accounts
     cat /etc/passwd
 
-![User Accounts](./User%20Accounts.png)
-
+![User Accounts](./user-accounts.png)
 ---
 
 ### **2. Check who has sudo privileges**
     getent group sudo
 
-![Sudo Group](./Administrative%20priviliges.png)
+![Sudo Privileges](./sudo-privileges.png)
+
 
 ---
 
 ### **3. Inspect folder permissions (/home/kali)**
     ls -ld /home/kali
 
-![Folder Permissions](./folder%20permissions%201.png)
+![Folder Permissions](./folder-permissions-1.png)
 
 ---
 
 ### **4. Inspect Desktop folder permissions**
     ls -l /home/kali/Desktop
 
-![Desktop Folder Permissions](./Folder%20Permissions%202.png)
+![Desktop Folder Permissions](./folder-permissions-2.png)
 
 ---
 
